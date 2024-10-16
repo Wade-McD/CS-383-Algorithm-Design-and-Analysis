@@ -14,8 +14,8 @@ Throughout this course, I learned essential tools and techniques for solving com
   - Divide and conquer
   - Transformation
   - Incremental improvement
-- **Notable Algorithms**: Sorting (Bubble Sort), Red-Black Trees, Huffman Coding, Graph Traversal.
 
+  
 ## Projects & Assignments
 - **Team Projects**: 2D Pattern Matching, Gerrymandering Algorithms, Scrabble AI.
 - **Individual Assignments**: Bubble Sort, Red-Black Trees, QuickHull, and more.
