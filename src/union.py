@@ -8,9 +8,14 @@ class WeightedQuickUnion():
         self.size = [1] * n
 
     def find(self, p):
-        while p != self.parent[p]:
-            p = self.parent[p]
-        return p
+        # while p != self.parent[p]:
+        #     p = self.parent[p]
+        # return p
+
+        # Path compression version
+        if p == self.parent[p]:
+            return p
+        self.parent[p] = self.find(self.parent[p])
 
     def connected(self, p, q):
         return self.find(p) == self.find(q)
